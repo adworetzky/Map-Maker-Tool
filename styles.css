@@ -1,0 +1,15 @@
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+body {
+  width: 99%;
+  height: 99%;
+  display: flex;
+}
+#map {
+  margin: auto;
+  width: 1200px;
+  height: 1000px;
+}
