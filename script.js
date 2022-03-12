@@ -64,12 +64,12 @@ const suburbData = [
 ];
 
 var geodotIconBlue = L.icon({
-  iconUrl: './geodotblue.svg',
+  iconUrl: './assets/geodotblue.svg',
   iconSize: [50, 50],
   iconAnchor: [25, 50],
 });
 var geodotIconRed = L.icon({
-  iconUrl: './geodotred.svg',
+  iconUrl: './assets/geodotred.svg',
   iconSize: [50, 50],
   iconAnchor: [25, 50],
 });
@@ -83,7 +83,7 @@ L.tileLayer(
     id: 'mapbox/streets-v11',
   }
 ).addTo(map);
-L.control.BigImage().addTo(map);
+// L.control.BigImage().addTo(map);
 drawPoints(neighborhoodData, geodotIconBlue);
 drawPoints(suburbData, geodotIconRed);
 
